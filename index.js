@@ -1,4 +1,4 @@
-if (process.env.ENV === 'dev') require('dotenv').config()
+ require('dotenv').config()
     const express = require('express');
     const cors = require('cors')
     const rootRouter = require('./src/routes/rootRouter')
